@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="website icon" type="png" href="./portfolio/resume.png" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="media-portfolio.css" />
+  </head>
+  <!-- trial loader -->
+  <body class="hidden">
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader-animation"></div>
+    </div>
+    <!-- end  loader trial -->
+    <!-- for phones and tablets -->
+    <div class="phone-nav">
+      <i onclick="slide()" class="fa-solid fa-bars"></i>
+    </div>
+    <div class="switch">
+      <i onclick="switch_on()" class="fa-solid fa-moon"></i>
+    </div>
+    <div class="switch-off">
+      <i onclick="switch_off()" class="fa-solid fa-sun"></i>
+    </div>
+    <!-- navigation bar -->
+    <div class="first-homepage">
+      <div class="nav">
+        <div class="cross-nav">
+          <i onclick="close_navbar()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="nav-para">
+          <div onclick="open_home()" class="menu-item active">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>Home</span>
+          </div>
+          <div onclick="open_about()" class="menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>About</span>
+          </div>
+          <div onclick="open_services()" class="menu-item">
+            <i class="fa-solid fa-list"></i>
+            <span>Skills</span>
+          </div>
+          <div onclick="open_project()" class="menu-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Projects</span>
+          </div>
+          <div onclick="open_contact()" class="menu-item">
+            <i class="fa-solid fa-comments"></i>
+            <span>Contact</span>
+          </div>
+        </div>
+      </div>
+      <!-- navigation bar end -->
+      <!-- first home page -->
+      <div class="right-home">
+        <div class="para-home">
+          <h1>Hi, I’m <span>Ayush</span></h1>
+          <h1>
+            Frontend Developer |<span> Computer Engineering Graduate</span>
+          </h1>
+          <p id="body-para">
+            Passionate about crafting sleek, responsive websites with clean code
+            and great user experience. Skilled in modern web technologies and
+            ready to turn ideas into interactive realities.
+          </p>
+          <a href="#">Download CV</a>
+          <a id="see-cv" href="#">See CV</a>
+        </div>
+        <div class="image-home">
+          <img src="portfolio/9a.webp" />
+        </div>
+      </div>
+      <!-- end first home page -->
+      <!-- about page start -->
+      <div class="about">
+        <div class="about-heading">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-f-para">
+          <h3>Hi, I am Ayush & I am a <span>Front-end Developer</span></h3>
+        </div>
+        <div class="about-s-para">
+          <p>
+            Hello! I'm Ayush Kumbhalkar, a dedicated web developer with a
+            passion for creating visually stunning and user-friendly websites.
+            With a strong foundation in web design, I excel in crafting digital
+            experiences that not only meet client needs but also engage and
+            inspire users. Outside of my professional pursuits, I enjoy hitting
+            the gym and diving into the immersive worlds of video games,
+            particularly online multiplayer games,My love for web development
+            drives me to continually learn and innovate.
+          </p>
+        </div>
+        <div class="main-about">
+          <div class="f-main">
+            <p>Birthday:<span>02 April 2004</span></p>
+            <p>
+              Social Media:
+              <a href="https://msng.link/o?its_ayush_111=ig">its_ayush_111</a>
+            </p>
+            <p>Degree:<span>B TECH</span></p>
+            <p>City:<span>Bhandara</span></p>
+          </div>
+          <div class="s-main">
+            <p>Age:<span>20</span></p>
+            <p>Email:<a href="mailto:ayushkumbhalkar68@gmail.com">Email</a></p>
+            <p>Phone:<a href="tel:+917030854405">+91 7030854405</a></p>
+            <p>Freelance:<span>Available</span></p>
+          </div>
+          <div class="t-main">
+            <h1>Education</h1>
+            <p><i class="fa-solid fa-calendar"></i>2021 - 2025</p>
+            <h4>Bachelor of technology - Computer Engineering</h4>
+            <p><i class="fa-solid fa-calendar"></i>2019 - 2021</p>
+            <h4>HSC In Science - J.M.Patel College Bhandara</h4>
+            <p><i class="fa-solid fa-calendar"></i>2014 - 2019</p>
+            <h4>Matriculation-SSC- Z.P.Jakatdar High School Bhandara</h4>
+          </div>
+        </div>
+      </div>
+      <!-- about page end -->
+      <!-- skills page start -->
+      <div class="skills">
+        <div class="skills-heading">
+          <h2>Skills</h2>
+        </div>
+        <div class="progress-bars">
+          <div class="first-bar">
+            <p>HTML</p>
+            <div class="first-sec">
+              <div class="first-third"></div>
+            </div>
+            <p>90%</p>
+          </div>
+          <div class="sec-bar">
+            <p>CSS , Bootstrap</p>
+            <div class="sec-sec">
+              <div class="sec-third"></div>
+            </div>
+            <p>85%</p>
+          </div>
+          <div class="third-bar">
+            <p>JAVA SCRIPT</p>
+            <div class="third-sec">
+              <div class="third-third"></div>
+            </div>
+            <p>80%</p>
+          </div>
+          <div class="four-bar">
+            <p>REACT</p>
+            <div class="four-sec">
+              <div class="four-third"></div>
+            </div>
+            <p>70%</p>
+          </div>
+          <div class="hobbies">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-laptop-code"></i>
+            <i class="fa-solid fa-gamepad"></i>
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+        </div>
+      </div>
+      <!-- skills page end -->
+      <!-- project page start -->
+      <div class="project">
+        <div class="project-heading">
+          <h2>Projects</h2>
+        </div>
+        <div class="project-images">
+          <div class="first-project">
+            <div class="card">
+              <div class="card-logo-f"><p>WATCHES</p></div>
+              <h2 class="card-title">WATCHES</h2>
+              <p class="card-description">
+                A premium platform offering stylish and affordable first copy
+                watches inspired by top luxury brands—perfect for elevating your
+                everyday look.
+              </p>
+              <a
+                href="https://firstcopywatch.netlify.app/"
+                target="_blank"
+                class="live-demo-btn"
+                >Live</a
+              >
+              <a
+                href="https://github.com/FrontendwithAyush/Watch-Store-Ecommerce"
+                id="git"
+                class="live-demo-btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+            <div class="card">
+              <div class="card-logo-f"><p>WEATHER</p></div>
+              <h2 class="card-title">WEATHER</h2>
+              <p class="card-description" style="font-size: 0.9rem">
+                Stay updated with real-time weather forecasts and temperature
+                alerts—anytime, anywhere.
+              </p>
+              <a
+                href="https://ayushweatherappf.netlify.app/"
+                target="_blank"
+                class="live-demo-btn"
+                >Live</a
+              >
+              <a
+                href="https://github.com/FrontendwithAyush/Weather-App"
+                id="git"
+                class="live-demo-btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+            <div class="card">
+              <div class="card-logo-f" style="margin-bottom: 0">
+                <p>MOVIES</p>
+              </div>
+              <h2 class="card-title">MOVIES</h2>
+              <p class="card-description">
+                A movie discovery and review platform where you can explore
+                trending films, read ratings, and find detailed insights about
+                your favorite movies and TV shows.
+              </p>
+              <a
+                href="https://moviereviewa.netlify.app/"
+                target="_blank"
+                class="live-demo-btn"
+                >Live</a
+              >
+              <a
+                href="https://github.com/FrontendwithAyush/Movie-Review-App"
+                id="git"
+                class="live-demo-btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="sec-project">
+            <div class="card">
+              <div class="card-logo-f" style="margin-bottom: 0">
+                <p>PORTFOLIO</p>
+              </div>
+              <h2 class="card-title">MyPortfolio</h2>
+              <p class="card-description">
+                A fully responsive personal portfolio showcasing projects, web
+                development skills, and my journey as a computer engineering
+                graduate with a strong focus on frontend development.
+              </p>
+              <a href="/" id="git" class="live-demo-btn">Active</a>
+              <a
+                href="https://github.com/FrontendwithAyush/Portfolio-Site"
+                class="live-demo-btn"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+            <div class="card">
+              <div class="card-logo-f"><p>INSTA-SPY</p></div>
+              <h2 class="card-title">SPY-INSTA</h2>
+              <p class="card-description">
+                A simple tool to view Instagram profiles anonymously. No login
+                required—just search, browse, and stay completely private.
+              </p>
+              <a href="#" id="git" class="live-demo-btn">Working</a>
+            </div>
+            <div class="card">
+              <div class="card-logo-f"><p>Coming</p></div>
+              <h2 class="card-title">Coming Soon</h2>
+              <p class="card-description">
+                Work in progress...<br />
+                Crafting something new and valuable. Launching soon!
+              </p>
+              <a href="#" id="git" class="live-demo-btn">Coming</a>
+              <a href="#" class="live-demo-btn">Soon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- project page end -->
+      <!-- contact page start -->
+      <div class="contact">
+        <div class="contact-heading">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="direct-email">
+          <p id="firstemail-p">Have a question or project in mind?</p>
+          <p id="secondemail-p">I respond quickly to all messages.</p>
+          <a href="mailto:ayushkumbhalkar68@gmail.com">Drop Me a Message</a>
+        </div>
+        <div class="last-contact">
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:ayushkumbhalkar68@gmail.com">Email</a>
+          </div>
+          <div class="call">
+            <i class="fa-solid fa-phone-flip"></i>
+            <a href="tel:+917030854405">Call me</a>
+          </div>
+          <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Maharashtra</p>
+          </div>
+          <div class="insta">
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://msng.link/o?its_ayush_111=ig">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <!-- contact page end-->
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
