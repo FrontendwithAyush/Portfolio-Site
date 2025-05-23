@@ -255,6 +255,6 @@ window.addEventListener("load", function () {
     const loader = document.getElementById("loader");
     loader.style.display = "none"; // Hide the loader
     document.body.classList.remove("hidden"); // Show the website content
-  }, 1000);
+  }, 1200);
 });
 // loader end
