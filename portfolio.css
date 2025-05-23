@@ -822,8 +822,8 @@
 }
 
 .loader-animation::before {
-  content: "A"; /* Replace with your text/logo */
-  font-size: 3rem;
+ content: "Hi, I'm Ayush — Web Developer"; /* Replace with your text/logo */
+  font-size: 1rem;
   font-weight: bold;
   color: #ec1839;
   display: block;
