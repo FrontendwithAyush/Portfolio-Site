@@ -2,7 +2,7 @@
 
 A personal portfolio website built to showcase my skills, projects, and resume as a frontend developer. Designed with responsiveness and simplicity in mind to provide recruiters and developers a clean view of my work.
 
-> 🌐 **Live Site**: [https://myresponsiveportfolioa.netlify.app/] <!-- Replace this with your Netlify/Vercel/GitHub Pages link -->
+> 🌐 **Live Site**: https://myresponsiveportfolioa.netlify.app/ <!-- Replace this with your Netlify/Vercel/GitHub Pages link -->
 
 ---
 
@@ -19,7 +19,7 @@ A personal portfolio website built to showcase my skills, projects, and resume a
 - 🛠️ **Skills** – Lists of tools, languages, and technologies I work with
 - 📄 **Resume Download** – Direct link to my resume (PDF)
 - 📱 **Responsive Design** – Works great on all screen sizes
-- 🌐 **Contact Form / Links** – Email, GitHub, LinkedIn, etc.
+- 🌐 **Contact Form / Links** – Email, GitHub, Number, etc.
 
 ---
 
@@ -27,24 +27,19 @@ A personal portfolio website built to showcase my skills, projects, and resume a
 
 - **HTML5** – Structure
 - **CSS3** – Styling and layout
-- **JavaScript (Vanilla or React)** – Page interaction *(mention which one you used)*
-- **Bootstrap** – *(If used, mention it here)*
-
+- **JavaScript (Vanilla)** – Page interaction *(mention which one you used)*
 ---
 
 ## 📁 Folder Structure (Example)
 
 portfolio/
 ├── index.html
-├── about.html
-├── projects.html
-├── contact.html
 ├── css/
-│ └── style.css
+│ └── portfolio.css,media-portfolio.css
 ├── js/
-│ └── main.js
-├── images/
-│ └── profile.png, preview.png
+│ └── portfolio.js
+├── portfolio/
+│ └── 9a.png, resume.png
 ├── resume.pdf
 └── README.md
 
@@ -63,23 +58,12 @@ Ayush – A passionate frontend developer with a strong grip on HTML, CSS, JS, R
 Currently a Computer Engineering Fresher building projects and learning more about full-stack development.
 
 📢 Contact
-📧 Email: [your email]
+📧 Email: ayushkumbhalkar68@gmail.com
 
-💼 LinkedIn: [your profile]
+💼 LinkedIn: https://www.linkedin.com/in/ayush-kumbhalkar-440403296 
 
-🐱 GitHub: [your username]
+🐱 GitHub: https://github.com/FrontendwithAyush 
 
 ✨ Hosting
-Hosted on Netlify / GitHub Pages / Vercel – [Link here again]
-
-
----
-
-### ✅ What You Should Do Next
-
-1. Replace the placeholder `[your link]`, `[your email]`, etc. with your actual info.
-2. If your site is deployed, **share the link with me**, and I’ll help add your exact link and screenshot.
-3. Add a nice screenshot (`portfolio-preview.png`) for the preview section if you want to show your design on GitHub.
-
-Let me know once you update or if you want help writing any of the sections like “About Me” or uploading your resume PDF.
+Hosted on Netlify  – https://myresponsiveportfolioa.netlify.app/
 
