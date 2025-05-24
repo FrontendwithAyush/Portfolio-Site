@@ -54,8 +54,8 @@ portfolio/
 2. Open index.html in your browser
 
 🙋‍♂️ About Me
-Ayush – A passionate frontend developer with a strong grip on HTML, CSS, JS, React, and Bootstrap.
-Currently a Computer Engineering Fresher building projects and learning more about full-stack development.
+I’m Ayush, a passionate frontend developer with hands-on experience in HTML, CSS, JavaScript, React, and Bootstrap. As a Computer Engineering fresher, I build projects to sharpen my skills and showcase my work through a responsive, cleanly designed portfolio.
+
 
 📢 Contact
 📧 Email: ayushkumbhalkar68@gmail.com
