@@ -54,9 +54,11 @@ portfolio/
 
 ## 🧪 How to Run Locally
 
-```bash
+
 1. Download or clone the repository
 2. Open index.html in your browser
+
+---
 
 🙋‍♂️ About Me
 I’m Ayush, a passionate frontend developer with hands-on experience in HTML, CSS, JavaScript, React, and Bootstrap. As a Computer Engineering fresher, I build projects to sharpen my skills and showcase my work through a responsive, cleanly designed portfolio.
