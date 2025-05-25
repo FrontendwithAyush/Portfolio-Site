@@ -60,6 +60,22 @@ portfolio/
 
 ---
 
+---
+
+## 📸 Additional Screenshots
+
+<div align="center">
+<img src="./portfolio/img1.png" width="200" />
+<img src="./portfolio/img2.png" width="200" />
+<img src="./portfolio/img3.png" width="200" />
+<br/>
+<img src="./portfolio/img4.png" width="200" />
+<img src="./portfolio/img5.png" width="200" />
+<img src="./portfolio/img6.png" width="200" />
+</div>
+
+---
+
 🙋‍♂️ About Me
 I’m Ayush, a passionate frontend developer with hands-on experience in HTML, CSS, JavaScript, React, and Bootstrap. As a Computer Engineering fresher, I build projects to sharpen my skills and showcase my work through a responsive, cleanly designed portfolio.
 
