@@ -25,6 +25,7 @@ A personal portfolio website built to showcase my skills, projects, and resume a
 - 📄 **Resume Download** – Direct link to my resume (PDF)
 - 📱 **Responsive Design** – Works great on all screen sizes
 - 🌐 **Contact Form / Links** – Email, GitHub, Number, etc.
+- **Auto Dark MOde** - detect automatically mode(dark/light) also mannualy button also
 
 ---
 
@@ -32,7 +33,7 @@ A personal portfolio website built to showcase my skills, projects, and resume a
 
 - **HTML5** – Structure
 - **CSS3** – Styling and layout
-- **JavaScript (Vanilla)** – Page interaction *(mention which one you used)*
+- **JavaScript (Vanilla)** – Page interaction 
 ---
 
 ## 📁 Folder Structure (Example)
@@ -44,8 +45,7 @@ portfolio/
 ├── js/
 │ └── portfolio.js
 ├── portfolio/
-│ └── 9a.png, resume.png
-├── resume.pdf
+│ └── 9a.png, resume.png,resume.pdf
 └── README.md
 
 
